@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=\, initial-scale=1.0">
+    <title>viyakothariportfolio.in</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/css/bootstrap.min.css">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+
+</head>
+
+<body>
+
+  <nav class="navbar navbar-expand-lg">
+    
+    <p class="navbar-brand">Viya.</p>
+    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+      <div class="navbar-nav gap-4">
+       
+        <a class="nav-link" href="Resume.png.png" onclick="setActiveTab(event)">Resume</a>
+        <a class="nav-link" href="#work" onclick="setActiveTab(event)">Work</a>
+        <a class="nav-link" href="#contact" onclick="setActiveTab(event)">Contact</a>
+      </div>
+    </div>
+</nav> 
+<script>
+  function setActiveTab(event) {
+    document.querySelectorAll('.nav-link').forEach(link => {
+      link.classList.remove('active');
+    });
+    event.target.classList.add('active');
+  }
+</script>
+
+  
+  <div class="container" id="about me">
+
+    <img src="PP.png" alt="Image" class="image">
+    <p class="bio-description2">
+      Hi! I am <span class="highlight">Viya</span>
+      
+    </p>
+     <span><h3 class="type-texting"></h3></span>
+    <h1 class="main_title fw-bold text-uppercase text-green overlay-text mt-0">Portfolio</h1>
+    <p class="bio-description">
+        I am a passionate Visual Designer dedicated to solving problems through innovative creativity.
+        I strive to create user-centric solutions that enhance experiences, tell compelling stories,
+        and leave a lasting impression.
+    </p>
+      
+    <h1 class="main_title2 fw-bold text-uppercase text-green overlay-text mt-0">Portfolio</h1>
+</div>
+<script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+<script>
+  var typed = new Typed (".type-texting",{
+  strings : [ "UI/UX Designer", "Graphic Designer" ,"Web Designer", "Book Designer"],
+  typeSpeed: 60,
+  backSpeed:60,
+  loop: true,
+  })
+</script>
+
+   <!-- Scrolling Process Title -->
+   <div class="scrolling-text-container">
+    <div class="scrolling-text">
+      What’s the process? • What’s the process? • What’s the process? • What’s the process? • What’s the process? • What’s the process? • What’s the process? • What’s the process? • 
+    </div>
+  </div>
+
+  <!-- Process Cards -->
+  <div class="container1">
+    
+    <div class="process-card"><p>Problem analysis</p>
+      <p class="card-text">identifying, understanding, and defining user needs and challenges to create effective and meaningful solutions.</p>
+    </div>
+    <div class="process-card"><p>Research</p>
+      <p class="card-text">understanding user needs, behaviors, and contexts to create solutions that are functional, intuitive, and aesthetically pleasing.</p>
+    </div>
+    <div class="process-card"><p>Ideations</p>
+      <p class="card-text"> the creative process of generating, developing, and refining ideas to solve a problem or enhance a concept.</p>
+    </div>
+    <div class="process-card"><p>Execution</p>
+      <p class="card-text">The process of transforming ideas and concepts into tangible, functional, and visually appealing outcomes.</p>
+    </div>
+  </div>
+
+  <section class="bg-teal"> 
+
+    <!-- Scrolling Work Title -->
+    <div class="scrolling-text-container1">
+      <div class="scrolling-text1">
+        Work • Work • Work • Work • Work • Work • Work • Work • Work • Work • Work • Work • Work • Work • Work • Work •
+      </div>
+    </div>
+  
+    <!-- Lesgo Content Block -->
+    <section class="container2" id="work">
+      <div class="row work-card"> 
+        <!-- Left Section -->
+        <div class="col-md-6 work-image-container">
+          <div class="work-image rounded">
+           <img src="Group 10.png" alt="lesgo" class="work1">
+          </div>
+      
+          <!-- Right Section -->
+        <div class="col-md-6 work-description">
+          <h3>Lesgo</h3>
+          <p>
+            Worked as a UI/UX Design Intern at Lesgo, a Bangalore-based startup focused on developing a dining app. 
+            During their app development phase, I was responsible for designing user interfaces and enhancing the overall user experience. 
+            I also contributed to creating visually engaging restaurant cards to enrich the app's design and functionality.
+          </p> </div>
+        <div>
+      <a href="LESGO.pdf">
+        <button class="button-18" role="button">Lesgo</button></a>
+        </div>
+      </div>
+      
+
+      <div class="row work-card"> 
+        <!-- Left Section -->
+        <div class="col-md-6 work-image-container">
+          <div class="work-image rounded">
+           <img src="Group 38.png" alt="lesgo" class="keepup">
+          </div>
+      
+          <!-- Right Section -->
+        <div class="col-md-6 work-description2">
+          <h3>Graphics</h3>
+          <p>
+            Designed graphics such as posters and vinyl covers, incorporating a variety of themes, styles, and creative concepts to produce visually striking and impactful designs.          </p>
+          
+    
+        </div>
+
+        <a href="GRAPHICS.pdf">
+          <button class="button-18" role="button">Graphics</button></a>
+          </div>
+      </div>
+
+      <div class="row work-card"> 
+        <!-- Left Section -->
+        <div class="col-md-6 work-image-container">
+          <div class="work-image rounded">
+           <img src="Group 20 2.png"alt="lego" class="legoai">
+          </div>
+      
+          <!-- Right Section -->
+        <div class="col-md-6 work-description3">
+          <h3>Lego.Ai</h3>
+          <p>
+            An AI software which is to help users create their own LEGO avatar. Users need to upload their front image and then click generate. Each ‘generation’ will create four images. After the images are generated users can select their preferred hairstyle and can also change the effects according to their need. </p>
+           
+        </div>
+
+        <a href="LEGO.AI.pdf">
+          <button class="button-18" role="button">Lego.ai</button></a>
+          </div>
+      </div>
+
+
+      <div class="row work-card"> 
+        <!-- Left Section -->
+        <div class="col-md-6 work-image-container">
+          <div class="work-image rounded">
+           <img src="Group 36.png" alt="lesgo" class="recipy">
+          </div>
+      
+          <!-- Right Section -->
+        <div class="col-md-6 work-description4">
+          <h3>Recipy Book</h3>
+          <p>
+            The concept is to design a typographic recipe book tailored for teenagers, students, and professionals living away from home. This book is ideal for those who return late from college or work and need quick and easy recipes for lunch or dinner. It aims to provide a sense of comfort and nostalgia, recreating the warmth of home-cooked meals while being practical and user-friendly.          </p>
+                 
+          </div>
+
+          <a href="recipe book.pdf">
+            <button class="button-18" role="button">Recipe book</button></a>
+            </div>
+          </div>
+
+        <div class="row work-card"> 
+          <!-- Left Section -->
+          <div class="col-md-6 work-image-container">
+            <div class="work-image rounded">
+             <img src="Group 37.png" alt="lesgo" class="typo">
+            </div>
+        
+            <!-- Right Section -->
+          <div class="col-md-6 work-description5">
+            <h3>Zarif</h3>
+            <p>
+              Designed a premium packaging for flavored cardamom, featuring custom typography inspired by the elegance of pillars. I chose this product as it perfectly complements the typography, enhancing its premium aesthetic.</p>        
+           </div>
+           
+          <a href="ZARIF.pdf">
+            <button class="button-18" role="button">Zarif</button></a>
+            </div>
+      </div>
+      
+    </section>
+
+  <footer class="last" id="contact">
+    <h1 class="d-flex justify-content-center contact">Contact</h1>
+
+    <div class="d-flex justify-content-center align-items-center gap-5 mt-5">
+      <div class="text-center">
+        <img src="Mail.png" alt="" class="icons">
+        <p><a href="mailto:viyakothari16@gmail.com" class="link-light link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover">viyakothari16@gmail.com</a></p>
+      </div>
+      <div class="text-center">
+        <img src="Call.png" alt="" class="icons">
+        <p class="mt-2">8591767339</p> <!-- Phone number below the icon -->
+      </div>
+      <div class="text-center">
+        <img src="Behance.png" alt="" class="icons">
+        <p><a href="https://www.behance.net/viyakothari1" class="link-light link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover">Viya Kothari></a></p>
+      </div>
+      <div class="text-center">
+        <img src="LinkedIn.png" alt="" class="icons">
+        <p><a href="https://www.linkedin.com/in/viya-kothari-024096222?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" class="link-light link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover">Viya Kothari</a></p>
+      </div>
+    </div>
+
+    <h6 class="d-flex justify-content-center my-5 align-items-center">
+      Viya Kothari
+      <img src="Heart.png" alt="" class="heart-icon">
+    </h6>
+    
+    
+    
+  </footer>
+</section>
+</html>
